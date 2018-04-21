@@ -1,6 +1,9 @@
-from BaseDisplayer_3 import BaseDisplayer
+# implements two different functions for display in Windows and Linux
+# initiallu the system display is identified and respective function is called on each display call
+
 import platform
-import os
+
+from tools.BaseDisplayer_3 import BaseDisplayer
 
 colorMap = {
     0 	  : 97 ,

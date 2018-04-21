@@ -1,5 +1,10 @@
+#AI of computer
+# for simplicity Computer AI is kept so dumb that it will select a random cell for Move from all available empty cells
+
 from random import randint
-from BaseAI_3 import BaseAI
+
+from tools.BaseAI_3 import BaseAI
+
 
 class ComputerAI(BaseAI):
     def getMove(self, grid):
